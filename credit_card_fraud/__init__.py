@@ -10,9 +10,13 @@ import os
 import sys
 from sklearn.datasets import load_iris
 
+import warnings
+warnings.filterwarnings("ignore")
+
 import pandas as pd
 import seaborn  as sb
 import matplotlib.pyplot as plt
+
 
 from pylab import rcParams
 rcParams['figure.figsize']=9,8
@@ -22,6 +26,9 @@ import warnings
 warnings.filterwarnings("ignore")
 
 import numpy as np
+from scipy import stats
+from scipy.stats import kurtosis,skew
+
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
