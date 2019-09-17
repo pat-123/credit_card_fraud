@@ -16,7 +16,7 @@ warnings.filterwarnings("ignore")
 import pandas as pd
 import seaborn  as sb
 import matplotlib.pyplot as plt
-
+from pandas.plotting import scatter_matrix
 
 from pylab import rcParams
 rcParams['figure.figsize']=9,8
@@ -48,7 +48,7 @@ from sklearn.linear_model import LogisticRegression
 
 from imblearn.combine import SMOTETomek#combine undersampling and oversampling
 from sklearn.ensemble import RandomForestClassifier
-
+from sklearn.ensemble import RandomForestRegressor
 # add to sys paths
 #sys.path.append('C:\\Users\\PAT\\Documents\\edwisor\\projects\\bigmart_sales')
 def rt_parent():
