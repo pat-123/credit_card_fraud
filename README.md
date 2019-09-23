@@ -26,8 +26,8 @@ RESULT
 SVM literally hangs since the no of observation is >40k, Time complexity being O(n^2 * no of features)..So not useful here
 
 ## Naive Bayes
-	### Model accuracy - 0.55
-	### auc = 0.72
+	- Model accuracy - 0.55
+	- auc = 0.72
 	- **Accuracy in Identifying defaulters 74.37437437437437
 	- **Wrongly telling a person will not default, whereas he is going to be 25.625625625625624
 
